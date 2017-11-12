@@ -1,0 +1,8 @@
+
+  <div *ngFor="let msg of chatList$ | async">
+    {{msg.name}} : {{msg.content}}
+  </div>
+<input type="text" [(ngModel)]="messages.name" >
+<input type="text" [(ngModel)]="messages.content" >
+<button (click)="addMessages()">add chat</button>
+<a routerLink="">home</a>

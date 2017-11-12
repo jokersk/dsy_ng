@@ -12,6 +12,16 @@ section{
         line-height: 1.5;
         transition: width 0.5s 1s, opacity 2s 2s;
     }
+
+  }
+  .chat-button{
+      font-size: 23px;
+      &.fixed-bottom{
+        position: fixed !important;
+        right: 40px;
+        bottom: 40px;
+        left: auto;
+      }
   }
   .flex-direction-column{
     flex-direction: column;
