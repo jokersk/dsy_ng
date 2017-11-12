@@ -1,0 +1,34 @@
+section{
+    width: 100%;
+    height: 100vh;
+  
+    color: #fff;
+    
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}  
+.contact-form > input {
+width: 100%;
+}
+label.mat-input-placeholder{
+    color: #fff;
+}
+section{
+    background-color: #03A678;
+}
+mat-form-field{
+    width: 90%;
+}
+.mat-form-field-invalid .mat-form-field-placeholder{
+    color: #fff;
+}
+/deep/ .mat-input-placeholder {
+    color: #fff;
+}
+/deep/ .mat-input-ripple.mat-focused {
+    background-color: #fff;
+}
+
+
